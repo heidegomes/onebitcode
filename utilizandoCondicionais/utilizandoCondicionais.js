@@ -4,7 +4,7 @@ let speed = prompt("Qual velocidade o piloto gostaria de acelerar?");
 let speedConfirmation = confirm(" Sua velocidade de aceleração é " + speed + " Km/s");
 let speedUpdate = speed;
 
-if (speedUpdate < 0) {
+if (speedUpdate <= 0) {
     alert("Nave está parada. Considere partir e aumentar a velocidade.")
 } else if (speedUpdate < 40) {
     alert("Você está devagar, podemos aumentar mais.")
