@@ -4,7 +4,7 @@ import DescriptionWithLink from '../../shared/description_with_link';
 
 
 const Planet = (props) => {
-    const names = ['a', 'b', 'c', 'd']
+    const names = ['a', 'b', 'c', 'd', 'f', 'g']
 
 
     let title;
